@@ -1,0 +1,49 @@
+/*--------Base Style-----------  */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Varela Round', sans-sans-serif;
+  line-height: 1.6;
+  color: #3a3a3a;
+}
+
+/*-----Navigation------  */
+
+.name {
+  font-size: 1.2em;
+}
+
+.name,
+.main-nav li {
+	text-align: center;
+	background: #fff;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+.main-nav a {
+	font-size: .95em;
+
+	text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/*---layout containers------------*/
+
+.flex {
+  text-align: center;
+}
+
+.main-contact {
+  font-weight: bold;
+  text-transform: uppercase;
+
+}

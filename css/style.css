@@ -19,7 +19,7 @@ body {
 
 /*.card,*/
 .main-header {
-  background-color: #e8e5e5;
+  background-color: #f2f2f2;
 }
 
 img {
@@ -50,6 +50,7 @@ img {
 
 a {
   text-decoration: none;
+  color: #666666;
 }
 
 ul {
@@ -73,8 +74,11 @@ ul {
 
 .main-nav li {
   background: #fff;
-  width: 70%;
+  width: 95%;
+  /* padding: 6px auto; */
+  padding: 10px;
   display: inline-block;
+  color: #666666;
 }
 
 .main-nav {

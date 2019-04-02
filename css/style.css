@@ -54,17 +54,18 @@ ul, h2, a, .return {
   font-weight: bold;
 }
 
-/*.name,
+.name,
 .main-nav li {
-	text-align: center;
+	/* text-align: center; */
 	margin-top: 6px;
 	margin-bottom: 6px;
 }
+
 .main-nav li{
   background: #fff;
 }
 
-.main-nav {
+/*.main-nav {
 	font-size: .95em;
 	text-transform: uppercase;
   font-weight: bold;

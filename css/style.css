@@ -14,6 +14,11 @@ body {
   text-align: center;
 }
 
+/*.card,*/
+.main-header {
+  background-color: #e8e5e5;
+}
+
 /*img {
   max-width: 100%;
 }
@@ -23,11 +28,6 @@ body {
   max-width: 80%;
   padding-bottom: 1px;
   margin: 30px auto;
-}
-
-.card,
-.main-header {
-  background-color: #e8e5e5;
 }
 
 .main-header {

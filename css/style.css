@@ -42,10 +42,11 @@ ul, h2, a, .return {
   list-style-type: none;
   font-weight: bold;
   color: #000;
+}*/
+
+a {
+  text-decoration: none;
 }
- */
-
-
 
 /*-----Navigation------  */
 
@@ -70,10 +71,6 @@ ul, h2, a, .return {
 	text-transform: uppercase;
   font-weight: bold;
   padding-left: none;
-}
-
-.main-nav a {
-  text-decoration: none;
 }
 
 /*li:hover {

@@ -1,10 +1,10 @@
 /*--------Base Style-----------  */
 
-/* * {
+* {
   box-sizing: border-box;
 }
 
-body {
+/* body {
   font-family: 'Varela Round', sans-sans-serif;
   line-height: 1.6;
   color: #3a3a3a;

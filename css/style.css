@@ -1,6 +1,6 @@
 /*--------Base Style-----------  */
 
-* {
+/* * {
   box-sizing: border-box;
 }
 
@@ -10,40 +10,262 @@ body {
   color: #3a3a3a;
 }
 
+.wrapper {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+.profile-picture {
+  display: block;
+  max-width: 80%;
+  padding-bottom: 1px;
+  margin: 30px auto;
+}
+
+.card,
+.main-header {
+  background-color: #e8e5e5;
+}
+
+.main-header {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  margin-bottom: 30px;
+}
+
+ul, h2, a, .return {
+  text-transform: uppercase;
+  text-decoration: none;
+  list-style-type: none;
+  font-weight: bold;
+  color: #000;
+}
+ */
+
+
+
 /*-----Navigation------  */
 
-.name {
-  font-size: 1.2em;
+/* .name {
+  font-size: 1.25em;
+  font-weight: bold;
 }
 
 .name,
 .main-nav li {
 	text-align: center;
-	background: #fff;
 	margin-top: 6px;
 	margin-bottom: 6px;
 }
+.main-nav li{
+  background: #fff;
+}
 
-.main-nav a {
+.main-nav {
 	font-size: .95em;
-
 	text-transform: uppercase;
   font-weight: bold;
   text-decoration: none;
+  padding-left: none;
 }
 
-ul {
-  list-style-type: none;
+li:hover {
+  transform: scale(0.9);
 }
+
+.main-nav a:hover {
+  color: #845869;
+  text-decoration: underline;
+}
+
+.container {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.footer-nav {
+  display: none;
+}
+
+.footer-name {
+  float: left;
+  font-weight: bold;
+  color: #000;
+}
+
+.return {
+  float: right;
+} */
 
 /*---layout containers------------*/
 
-.flex {
-  text-align: center;
-}
 
-.main-contact {
+/* .flex {
+  text-align: center;
+} */
+
+/* .main-contact {
   font-weight: bold;
   text-transform: uppercase;
 
+} */
+
+/* .email {
+  text-transform: none;
 }
+
+.card {
+  margin-top: 20px;
+} */
+
+/*------float clearfix--------*/
+
+/* .clearfix {
+  content:"";
+  display: table;
+  clear: both;
+} */
+
+/*===================================
+  Media Queries
+===================================== */
+/* @media (min-width: 768px) {
+
+  .main-header {
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 50px;
+  }
+
+  .main-nav {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+  }
+
+  .main-nav li {
+     text-align: center;
+     background-color: #e8e5e5;
+     display: inline-block;
+     margin-bottom: 0 10px;
+     width: 150px;
+   }
+
+  li a {
+    display: inline-block;
+  }
+
+  .column {
+    width: 50%;
+    float: left;
+    padding: 10px 10px 50px 10px;
+  }
+
+  .intro {
+    width: 95%
+    margin: auto;
+  }
+
+  .profile-picture {
+    float: right;
+    width: 45%;
+    padding: 0;
+  }
+
+  .about-me {
+    float: left;
+    width: 50%;
+    margin-left: 20px;
+    text-align: left;
+    padding: 0 0 30px 20px;
+  }
+
+  .column {
+    max-width: 90%;
+    margin: auto;
+  }
+
+  .project {
+    width: 50%;
+    float:left;
+    padding: 10px;
+  }
+
+  .return {
+    display: none;
+  }
+
+  .footer-nav {
+    display: inline-block;
+    float: right;
+  }
+
+  .footer-nav li {
+    float: left;
+    margin-left: 16px;
+  }
+}
+
+@media (min-width: 1024px) {
+
+.main-header {
+  width: 90%;
+  margin: auto;
+}
+
+.container {
+  padding-bottom: 30px;
+}
+
+.name {
+  float: left;
+  padding: 10px 15px 20px;
+  margin: 10px 0 15px 10px;
+}
+
+.main-nav {
+  float: right;
+  padding: 10px 0 20px;
+  margin: 10px;
+}
+
+.intro {
+  width: 90%;
+  margin-left: 10px;
+  padding: 10px 20px;
+  float: left;
+}
+
+.profile-picture {
+  float: right;
+  width: 35%;
+  margin: 50px 10px 20px 10px;
+}
+
+.about-me {
+  float: left;
+  width: 50%;
+  text-align: left;
+  padding-top: 0;
+  padding-right: 0;
+  margin: auto;
+}
+
+.column {
+  max-width: 95%;
+  margin; auto;
+}
+
+.project {
+  float: left;
+  width: 33%;
+  padding: 10px;
+  display: inline-block;
+
+}
+
+} */

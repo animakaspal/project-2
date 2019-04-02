@@ -8,10 +8,13 @@ body {
   font-family: 'Varela Round', sans-serif;
   line-height: 1.6;
   color: #666666;
+  text-align: center;
 }
 
 .wrapper {
   text-align: center;
+  display: inline-block;
+  width: 95%;
 }
 
 /*.card,*/
@@ -28,15 +31,15 @@ body {
   max-width: 80%;
   padding-bottom: 1px;
   margin: 30px auto;
-}
+}*/
 
-.main-header {
+/* .main-header {
   padding-top: 1.5em;
   padding-bottom: 1.5em;
   margin-bottom: 30px;
-}
+} */
 
-ul, h2, a, .return {
+/*ul, h2, a, .return {
   text-transform: uppercase;
   text-decoration: none;
   list-style-type: none;

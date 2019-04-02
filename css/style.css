@@ -61,19 +61,22 @@ ul, h2, a, .return {
 	margin-bottom: 6px;
 }
 
-.main-nav li{
+.main-nav li {
   background: #fff;
 }
 
-/*.main-nav {
+.main-nav {
 	font-size: .95em;
 	text-transform: uppercase;
   font-weight: bold;
-  text-decoration: none;
   padding-left: none;
 }
 
-li:hover {
+.main-nav a {
+  text-decoration: none;
+}
+
+/*li:hover {
   transform: scale(0.9);
 }
 

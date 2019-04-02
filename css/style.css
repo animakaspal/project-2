@@ -4,13 +4,13 @@
   box-sizing: border-box;
 }
 
-/* body {
-  font-family: 'Varela Round', sans-sans-serif;
-  line-height: 1.6;
-  color: #3a3a3a;
+body {
+  font-family: 'Varela Round', sans-serif;
+  /*line-height: 1.6;
+  color: #3a3a3a;*/
 }
 
-.wrapper {
+/*.wrapper {
   text-align: center;
 }
 

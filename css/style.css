@@ -33,11 +33,12 @@ img {
   margin: 30px auto;
 }
 
-/* .main-header {
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
+.main-header {
+  /* padding-top: 1.5em;
+  padding-bottom: 1.5em; */
+  padding: 1.5em;
   margin-bottom: 30px;
-} */
+}
 
 /*ul, h2, a, .return {
   text-transform: uppercase;

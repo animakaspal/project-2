@@ -120,6 +120,11 @@ h2 {
   float: left;
   font-weight: bold;
   color: #000;
+  padding-left: 10px;
+}
+
+.card {
+  padding: 20px 0;
 }
 
 /*.container {

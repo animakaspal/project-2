@@ -198,8 +198,7 @@ strong {
 @media (min-width: 768px) {
 .main-header {
   text-align: center;
-  margin-bottom: 20px;
-  overflow: hidden;
+  margin-bottom: 50px;
 }
 
 .main-nav {
@@ -222,6 +221,7 @@ strong {
   width: 45%;
   margin-top: 10px;
   margin-left: 25px;
+  margin-bottom: 25px;
   padding: 10px;
 }
 
@@ -231,6 +231,16 @@ strong {
   clear: both;
 }
 
+.column {
+  margin-top: 50px;
+  width: 90%;
+}
+
+.project {
+  width: 45%;
+  padding: 10px;
+  display: inline-block;
+}
 }
 
 
@@ -286,10 +296,7 @@ strong {
     padding: 0 0 30px 20px;
   }
 
-  .column {
-    max-width: 90%;
-    margin: auto;
-  }
+
 
   .project {
     width: 50%;

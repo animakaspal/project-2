@@ -197,9 +197,13 @@ strong {
 ===================================== */
 @media (min-width: 768px) {
 
+.main-nav {
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 50px;
 
-
-
+}
 
 
 }

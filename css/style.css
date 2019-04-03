@@ -89,14 +89,14 @@ ul {
   padding-left: none;
 }
 
-/*li:hover {
+li:hover {
   transform: scale(0.9);
 }
 
 .main-nav a:hover {
-  color: #845869;
+  color: #893878;
   text-decoration: underline;
-}*/
+}
 
 #portfolio {
   font-size: 1em;

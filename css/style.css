@@ -234,6 +234,7 @@ strong {
 .column {
   margin-top: 50px;
   width: 90%;
+  text-align: center;
 }
 
 .project {
@@ -241,6 +242,7 @@ strong {
   padding: 10px;
   display: inline-block;
 }
+
 }
 
 

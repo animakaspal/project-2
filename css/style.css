@@ -6,6 +6,7 @@
 
 body {
   font-family: 'Varela Round', sans-serif;
+  font-size: 1.2em;
   line-height: 1.6;
   color: #666666;
   text-align: center;
@@ -88,10 +89,6 @@ ul {
   padding-left: none;
 }
 
-.about-me {
-  font-size: 1.2em;
-}
-
 /*li:hover {
   transform: scale(0.9);
 }
@@ -99,9 +96,13 @@ ul {
 .main-nav a:hover {
   color: #845869;
   text-decoration: underline;
+}*/
+
+#portfolio {
+  font-size: 1em;
 }
 
-.container {
+/*.container {
   padding-left: 1em;
   padding-right: 1em;
 }

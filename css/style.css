@@ -196,6 +196,11 @@ strong {
   Media Queries
 ===================================== */
 @media (min-width: 768px) {
+.main-header {
+  text-align: center;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
 
 .main-nav {
   display: inline-block;
@@ -211,6 +216,17 @@ strong {
    margin-bottom: 10px;
    width: 150px;
  }
+
+.profile-picture {
+  float: right;
+  width: 45%;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 }
 

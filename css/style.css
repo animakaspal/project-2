@@ -239,10 +239,28 @@ strong {
 
 .project {
   width: 45%;
-  padding: 10px;
+  padding: 20px 10px;
+  margin-bottom: 20px;
   display: inline-block;
 }
 
+.return {
+  display: none;
+}
+
+.footer-nav {
+  display: inline-block;
+  float: right;
+  margin: auto;
+}
+
+.footer-nav li {
+  float: left;
+  margin-left: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+}
 }
 
 

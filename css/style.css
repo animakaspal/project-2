@@ -196,6 +196,7 @@ strong {
   Media Queries
 ===================================== */
 @media (min-width: 768px) {
+
 .main-header {
   text-align: center;
   margin-bottom: 50px;
@@ -219,10 +220,16 @@ strong {
 .profile-picture {
   float: right;
   width: 45%;
-  margin-top: 10px;
+  margin-top: 0px;
   margin-left: 25px;
   margin-bottom: 25px;
-  padding: 10px;
+  /* padding: 10px; */
+  padding-top: 0px;
+}
+
+.about-me {
+  text-align: left;
+  margin-top: 0;
 }
 
 .clearfix::after {
@@ -242,6 +249,7 @@ strong {
   padding: 20px 10px;
   margin-bottom: 20px;
   display: inline-block;
+  text-align: center;
 }
 
 .return {
@@ -259,7 +267,6 @@ strong {
   margin-left: 16px;
   text-transform: uppercase;
   font-weight: bold;
-  margin-top: 0;
 }
 }
 
@@ -295,11 +302,6 @@ strong {
     width: 50%;
     float: left;
     padding: 10px 10px 50px 10px;
-  }
-
-  .intro {
-    width: 95%
-    margin: auto;
   }
 
   .profile-picture {
@@ -360,13 +362,6 @@ strong {
   float: right;
   padding: 10px 0 20px;
   margin: 10px;
-}
-
-.intro {
-  width: 90%;
-  margin-left: 10px;
-  padding: 10px 20px;
-  float: left;
 }
 
 .profile-picture {

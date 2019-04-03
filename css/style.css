@@ -88,6 +88,10 @@ ul {
   padding-left: none;
 }
 
+.about-me {
+  font-size: 1.2em;
+}
+
 /*li:hover {
   transform: scale(0.9);
 }

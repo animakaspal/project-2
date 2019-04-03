@@ -110,6 +110,8 @@ p {
 h2 {
   text-transform: uppercase;
   font-size: 1em;
+  color: #1e1d1e;
+  font-weight: bold;
 }
 
 .footer-nav {
@@ -119,14 +121,25 @@ h2 {
 .footer-name {
   float: left;
   font-weight: bold;
-  color: #000;
+  /* color: #000; */
   padding-left: 10px;
 }
 
 .card {
-  padding: 20px 0;
+  padding: 20px 0 40px;
+  margin-bottom: 10px;
 }
 
+.return {
+  float: right;
+  padding-right: 10px;
+  font-weight: bold;
+  color: ;
+}
+
+.email {
+  font-weight: bold;
+}
 /*.container {
   padding-left: 1em;
   padding-right: 1em;

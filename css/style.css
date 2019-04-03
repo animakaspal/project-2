@@ -136,6 +136,10 @@ h2 {
   font-weight: bold;
 }
 
+strong {
+  padding-left: 10px;
+}
+
 .email {
   font-weight: bold;
   padding-left: 10px;

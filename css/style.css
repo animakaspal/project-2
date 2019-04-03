@@ -134,11 +134,11 @@ h2 {
   float: right;
   padding-right: 10px;
   font-weight: bold;
-  color: ;
 }
 
 .email {
   font-weight: bold;
+  padding-left: 10px;
 }
 /*.container {
   padding-left: 1em;
@@ -191,6 +191,16 @@ h2 {
 /*===================================
   Media Queries
 ===================================== */
+@media (min-width: 768px) {
+
+
+
+
+
+
+}
+
+
 /* @media (min-width: 768px) {
 
   .main-header {

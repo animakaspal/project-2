@@ -102,6 +102,11 @@ ul {
   font-size: 1em;
 }
 
+p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 /*.container {
   padding-left: 1em;
   padding-right: 1em;
